@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1080 1080">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 36px;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_1">
+    <rect class="st0" y="3" width="36.1" height="1072"/>
+  </g>
+  <g id="Rectangle_1_copy_3">
+    <rect class="st0" x="521.9" y="3" width="36.1" height="1072"/>
+  </g>
+  <g id="Rectangle_1_copy_5">
+    <rect class="st0" x="-299.3" y="533.4" width="1151.6" height="36.1" transform="translate(-340.4 553.3) rotate(-63.5)"/>
+  </g>
+  <g id="Rectangle_1_copy_6">
+    <rect class="st0" x="784.9" y="-25.2" width="36.2" height="1152.5" transform="translate(-161.4 415.7) rotate(-26.5)"/>
+  </g>
+  <g id="Rectangle_1_copy_4">
+    <rect class="st0" x="1043.9" y="3" width="36.1" height="1072"/>
+  </g>
+  <g id="Rectangle_1_copy">
+    <rect class="st0" x="4" y="3" width="1072" height="36.1"/>
+  </g>
+  <g id="Rectangle_1_copy_2">
+    <rect class="st0" x="4" y="589.2" width="1072" height="36.1"/>
+  </g>
+  <path class="st1" d="M768.8,21.1c161.9,0,293.1,131.2,293.1,293.1s-127.7,289.6-286.6,293"/>
+</svg>
