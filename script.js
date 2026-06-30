@@ -41,7 +41,7 @@ function loadGallery(folder, count) {
 
             card.onclick=function(){
 
-                alert(😉);
+                alert(image);
 
             }
 
@@ -99,7 +99,7 @@ lightbox.style.display="none";
 
 window.onload=function(){
 
-loadGallery("portfolio/logo",10);
+loadGallery("portfolio/logos",10);
 
 }
 /*==========================================
