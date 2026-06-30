@@ -11,7 +11,103 @@ function loadGallery(folder, count) {
 
     gallery.innerHTML = "";
 
-    for (let i = 1; i <= count; i++) {
+  if(folder==="portfolio/banner"){
+
+gallery.innerHTML=`
+
+<div class="swiper bannerSwiper">
+
+<div class="swiper-wrapper">
+
+${Array.from({length:8},(_,i)=>`
+
+<div class="swiper-slide">
+
+<img src="assets/portfolio/banner/${i+1}.jpg">
+
+</div>
+
+`).join("")}
+
+</div>
+
+<div class="swiper-button-next"></div>
+
+<div class="swiper-button-prev"></div>
+
+<div class="swiper-pagination"></div>
+
+</div>
+
+`;
+
+new Swiper(".bannerSwiper",{
+
+effect:"coverflow",
+
+grabCursor:true,
+
+centeredSlides:true,
+
+slidesPerView:"auto",
+
+loop:true,
+
+speed:900,
+
+spaceBetween:0,
+
+keyboard:true,
+
+mousewheel:true,
+
+autoplay:{
+
+delay:3500,
+
+disableOnInteraction:false
+
+},
+
+coverflowEffect:{
+
+rotate:0,
+
+stretch:0,
+
+depth:300,
+
+modifier:2,
+
+scale:0.85,
+
+slideShadows:false
+
+},
+
+pagination:{
+
+el:".swiper-pagination",
+
+clickable:true
+
+},
+
+navigation:{
+
+nextEl:".swiper-button-next",
+
+prevEl:".swiper-button-prev"
+
+}
+
+});
+
+return;
+
+}
+   
+   for (let i = 1; i <= count; i++) {
 
         const card = document.createElement("div");
 
