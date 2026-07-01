@@ -1179,6 +1179,21 @@ border-radius:20px;
 width:95%;
 
 }
+   /* Portfolio Buttons */
+
+.portfolio-buttons button,
+.category-buttons button,
+button{
+
+font-family:"Vazirmatn",sans-serif;
+
+font-size:16px;
+
+font-weight:600;
+
+letter-spacing:0;
+
+}
 
 }
 /*=========================
