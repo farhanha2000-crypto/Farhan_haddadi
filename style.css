@@ -227,31 +227,9 @@ font-size:20px;
 
 font-weight:400;
 
-color:#d0d0d0;
+color:var(--gray);
 
 margin-bottom:25px;
-
-display:flex;
-
-flex-direction:column;
-
-align-items:center;
-
-}
-
-.hero h2::after{
-
-content:"";
-
-width:110px;
-
-height:4px;
-
-background:#fff;
-
-border-radius:20px;
-
-margin-top:14px;
 
 }
 
