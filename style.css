@@ -221,18 +221,23 @@ margin-bottom:10px;
 
 }
 
-.hero h2{
-
-font-size:20px;
-
-font-weight:400;
-
-color:var(--gray);
-
-margin-bottom:25px;
-
+.hero-content h2{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 35px;
 }
 
+.hero-content h2::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50px;
+}
 .hero p{
 
 line-height:2.1;
