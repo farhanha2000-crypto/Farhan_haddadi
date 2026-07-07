@@ -195,7 +195,7 @@ lightbox.style.display="none";
 
 window.onload = function () {
 
-    loadGallery("portfolio/logo", 7);
+    loadGallery("portfolio/logo",7);
 
 };
 /*==========================================
