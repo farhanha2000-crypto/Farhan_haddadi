@@ -193,11 +193,11 @@ lightbox.style.display="none";
      LOAD DEFAULT GALLERY
 ==========================================*/
 
-window.onload=function(){
+window.onload = function () {
 
-loadGallery("portfolio/logos",10);
+    loadGallery("portfolio/logo", 7);
 
-}
+};
 /*==========================================
         SCROLL REVEAL
 ==========================================*/
