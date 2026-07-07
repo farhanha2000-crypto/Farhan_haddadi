@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>گواهی‌ها</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body class="dark-page">
+
+<section class="certificates-page">
+
+<h1>گواهی‌ها</h1>
+
+<div class="certificate-grid">
+
+<img src="assets/certificates/1.jpg" onclick="openCertificate(this.src)">
+<img src="assets/certificates/2.jpg" onclick="openCertificate(this.src)">
+<img src="assets/certificates/3.jpg" onclick="openCertificate(this.src)">
+<img src="assets/certificates/4.jpg" onclick="openCertificate(this.src)">
+<img src="assets/certificates/5.jpg" onclick="openCertificate(this.src)">
+<img src="assets/certificates/6.jpg" onclick="openCertificate(this.src)">
+
+</div>
+
+<a href="index.html" class="back-btn">
+
+بازگشت به سایت
+
+</a>
+
+</section>
+
+<div id="certificateLightbox">
+
+<span onclick="closeCertificate()">&times;</span>
+
+<button class="prev" onclick="prevCertificate()">❮</button>
+
+<img id="certificateImage">
+
+<button class="next" onclick="nextCertificate()">❯</button>
+
+</div>
+
+<script src="certificate.js"></script>
+
+</body>
+
+</html>
