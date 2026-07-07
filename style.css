@@ -1434,6 +1434,12 @@ animation-delay:1.2s;
     font-size:50px;
     cursor:pointer;
 }
+
+nav a{
+    display:flex;
+    align-items:center;
+    gap:0;
+}
 /*=========================
       END OF FILE
 =========================*/
